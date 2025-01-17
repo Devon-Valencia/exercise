@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Test JavaScript in Browser</title>
+</head>
+<body>
+  <script>
+    const arr1 = [3, 8, 11, 16, 20, 27, 29, 32, 36, 43];
+    const arr2 = [2, 4, 5, 13, 19, 24, 28, 31, 44, 50];
+    const sum = arr1
+      .concat(arr2)
+      .filter(num => num % 2 === 0)
+      .reduce((acc, cval) => acc + cval, 0);
+    console.log(sum); 
+
+  </script>
+</body>
+</html>
