@@ -9,7 +9,7 @@ function filterNumbers(numb) {
   // console.log("This array has how many elements: ", numb.length)
     let new_array = [];
     let sum_of_array = 0;
-  for (let i = 0; i <= numb.length; i++){
+  for (let i = 0; i < numb.length; i++){
     if (numb[i] >= 50) {
       new_array.push(numb[i]);
       sum_of_array = sum_of_array + numb[i]; 
