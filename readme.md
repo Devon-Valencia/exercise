@@ -1,4 +1,3 @@
 # Exercises 
 
-
-Hello World!
+My starting exercises
