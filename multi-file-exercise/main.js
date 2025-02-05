@@ -11,6 +11,7 @@ const categories = require('./data/categories.js');
 // });
 
 // Logged the name and price of all books under $40. 
+
 products.forEach((product) => {
     const matchingCategory = categories.find(cat => cat.id === product.categoryId);
     if (matchingCategory && matchingCategory.id === 3 && product.price <= 40) {
