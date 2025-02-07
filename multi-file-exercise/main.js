@@ -19,3 +19,4 @@ products.forEach((product) => {
         console.log(filtered_products);
     }    
 });
+
